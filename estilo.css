@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+main {
+    width: 100%;
+}
+header {
+    background-image: url(./img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    padding-left: 25px;
+}
+#header {
+    width: 100%;
+    display: flex;
+}
+#header p {
+    margin-top: 15px;
+    color: white;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+nav {
+    margin-top: 25px;
+    margin-left: auto;
+    padding-right: 45px;
+    justify-items: center;
+}
+nav a {
+    margin-right: 9px;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+}
+#titulo {
+    margin-top: 300px;
+    margin-left: auto;
+    color: white;
+}
+.titulo {
+    padding-left: 10px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtitulos {
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif
+}
+#sobreNosotros-contenedor {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sobreNosotros-box {
+    width: 33.3%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nosotros-img {
+    width: 70px;
+    height: 70px;
+}
+.sobreNosotros-titulos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#casas-contenedor {
+    display: flex;
+    height: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    gap: 12px;
+}
+.casas-box {
+    width: 33.3%;
+    border: solid 1px lightgray;
+}
+.casas-texto {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.verde {
+    color: rgb(139, 190, 35);
+    font-weight: bolder;
+}
+#iconos-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 9px;
+}
+.verPropiedad {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: orange;
+    font-weight: bolder;
+    border: none;
+    margin-bottom: 10px;
+}
+.verTodas {
+    width: 115px;
+    height: 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(141, 194, 34);
+    border: none;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#verTodas-container {
+    text-align: right;
+}
+#footer-superior {
+    color: white;
+    background-image: url(./img/encuentra.jpg);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding-top: 70px;
+    padding-left: 115px;
+    margin-bottom: -25px;
+}
+#footer-superior h2 {
+    padding-bottom: 20px;
+}
+#footer-superior p {
+    padding-bottom: 20px;
+}
+#footer-inferior {
+    background-color: rgb(90, 88, 88);
+    padding-left: 5%;
+    height: 40px;
+    width: 100%;
+}
+footer {
+    width: 100%;
+    height: auto;
+}
+#contactanos {
+    background-color: orange;
+    color: white;
+    width: 125px;
+    height: 45px;
+    border: none;
+}
+.footer {
+    padding-top: 15px;
+    text-align: left;
+    color: white;
+    font-size: small;
+}
